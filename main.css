@@ -71,6 +71,7 @@
     background: url('img/back.png') no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
   }
 
   .about h1 {
@@ -82,6 +83,13 @@
     font-size: 18px;
     line-height: 30px;
     opacity: 0.8;
+  }
+
+  .orb-canvas {
+    position: absolute;
+    top: 0;
+    right: o;
+    height: 100%;
   }
    
   .about button {
